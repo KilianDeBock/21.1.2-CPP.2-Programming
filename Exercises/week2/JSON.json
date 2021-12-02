@@ -1,0 +1,22 @@
+{
+  "voornaam": "Kilian,",
+  "familienaam": "De Bock",
+  "studentenNummer": "216421",
+  "cursussen": [
+    {
+      "cursusnaam": "pgm",
+      "studiepunten": 6,
+      "contacturen": 36
+    },
+    {
+      "cursusnaam": "web",
+      "studiepunten": 6,
+      "contacturen": 36
+    },
+    {
+      "cursusnaam": "comp",
+      "studiepunten": 3,
+      "contacturen": 12
+    }
+  ]
+}
