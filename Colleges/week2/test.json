@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "description": "Dit is een discription",
+  "number": 150,
+  "boolean": true,
+  "prop": null,
+  "person": {
+    "name": "Kilian",
+    "lastName": "De Bock"
+  },
+  "people": [
+    {
+      "name": "Emma",
+      "lastName": "Van Der Haegen"
+    },
+    {
+      "name": "Veli",
+      "lastName": "Duran Duran"
+    }
+  ]
+}
