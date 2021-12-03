@@ -100,3 +100,20 @@ const cars = [
   },
 ];
 
+function getColors(array) {
+  const colors = array.map((item) => {
+    return item.availableColors;
+  }).flat();
+
+  return [...(new Set(colors))];
+}
+
+console.log(getColors(cars));
+
+const numbers = [1, 2, 3, 4, 5];
+
+function calculateAverage(numbers) {
+  return (numbers.reduce((prev, cur) => prev + cur)) / numbers.length;
+}
+
+console.log(calculateAverage(numbers));
