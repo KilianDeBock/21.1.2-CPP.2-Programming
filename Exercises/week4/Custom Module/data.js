@@ -1,10 +1,6 @@
 const getDate = () => {
   const date = new Date();
-  return {
-    getString: `${date.toString()}`,
-    getYear: `${date.getFullYear()}`,
-    timeToString: `${date.getFullYear()}`
-  };
+  return date.toString();
 };
 
 exports.getDate = getDate;
