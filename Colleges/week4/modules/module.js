@@ -4,7 +4,7 @@ const log = (msg) => {
 
 // exports.log = (msg) => log(msg);
 // exports.text = 'text';
-module.exports = {
+exports.module = {
   log: log,
   text: 'text'
 };
